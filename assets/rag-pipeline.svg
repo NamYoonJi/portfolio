@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-labelledby="title desc">
+<title id="title">학교생활 RAG 챗봇 처리 흐름</title><desc id="desc">강의 정보와 학칙·규정, 학내 커뮤니티 자료를 Vector DB로 구성하고 학내 줄임말 사전을 활용해 사용자 질문을 검색한 뒤 OpenAI API로 답변을 생성한다.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5 0 7" fill="#68758b"/></marker><style>text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#26364f;text-anchor:middle;font-size:19px}.small{font-size:17px}.box{stroke:#b6c4d8;stroke-width:1.5;rx:10}.line{fill:none;stroke:#68758b;stroke-width:2;marker-end:url(#arrow)}</style></defs>
+<rect width="480" height="420" rx="12" fill="#fff"/><text x="240" y="32" style="font-size:23px;font-weight:bold">학교생활 RAG 챗봇</text>
+<rect class="box" x="18" y="52" width="207" height="64" fill="#eef3fb"/><text x="121" y="79">강의 정보</text><text x="121" y="103">학칙·규정</text>
+<rect class="box" x="255" y="52" width="207" height="64" fill="#eef3fb"/><text x="359" y="91">학내 커뮤니티</text>
+<path d="M121 116v18h238v-18" fill="none" stroke="#68758b" stroke-width="2"/><path class="line" d="M240 134v17"/><rect class="box" x="146" y="153" width="188" height="52" fill="#dbe8ff"/><text x="240" y="186">Vector DB</text>
+<path class="line" d="M240 205v37"/>
+<rect class="box" x="18" y="248" width="128" height="65" fill="#f4f6f9"/><text x="82" y="287">사용자 질문</text>
+<rect class="box" x="177" y="248" width="127" height="65" fill="#dbe8ff"/><text x="240" y="275">관련 정보</text><text x="240" y="299">검색</text>
+<rect class="box" x="335" y="248" width="128" height="65" fill="#e8f3ed"/><text x="399" y="273">답변 생성</text><text class="small" x="399" y="299">OpenAI API</text>
+<path class="line" d="M146 281h28M304 281h27M399 313v42"/>
+<rect class="box" x="18" y="354" width="224" height="46" fill="#f5f0ff"/><text x="130" y="383">학내 줄임말 사전</text><path class="line" d="M240 354v-37" stroke-dasharray="5 4"/>
+<text x="397" y="383">답변</text>
+</svg>
